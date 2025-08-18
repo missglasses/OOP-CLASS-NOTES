@@ -1,0 +1,55 @@
+OOP 
+
+-utilizes classes and objects
+
+procedural vs oop
+
+procedural: structs, tasks, outputs
+oop - objects, methods, classes
+
+Class - blueprint/template that contains properties
+
+ex: 
+class House {
+
+	//properties
+	Roof;
+	Electricity;
+	Doors;
+	Floors;
+	Windows;
+
+}
+
+//behaviors or methods;
+
+openDoor();
+openWindow();
+turnOnElec();
+
+//objects
+mansion
+bungalow
+bahay kubo
+
+
+
+----
+  using System;
+
+class Student {
+    long studentID;
+    string firstName;
+    string lastName;
+    int yearLevel =4;
+    
+    //objects-- one class=one file
+    void walkToSchool(params){
+    //code here 
+}
+
+}
+
+
+
+  
