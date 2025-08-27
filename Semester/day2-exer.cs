@@ -46,7 +46,7 @@ class Program { //classname should also be the filename (before)
         break;
 
     case 4:
-     quo = num1-num2;
+     quo = num1/num2;
         //    Console.WriteLine("Quotient is "+quo);
         Console.WriteLine("Result {0} / {1} = {2}", num1, num2, quo);
         break; 
