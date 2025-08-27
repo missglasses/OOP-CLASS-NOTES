@@ -10,9 +10,8 @@ class Program { //classname should also be the filename (before)
     Console.WriteLine("=======My Calculator Program =======");
     Console.WriteLine("by Cindy Lepatan");
 
-    float num1, num2, sum, prod, diff, choice;
-    float quo;
-    // string choice;
+    float num1, num2, sum, prod, diff, quo;
+    char choice;
     
     Console.WriteLine("Enter the first number:  ");
     // num1= Convert.ToInt32(Console.ReadLine()); //typecast
@@ -22,32 +21,32 @@ class Program { //classname should also be the filename (before)
     // num2= Convert.ToInt32(Console.ReadLine());  //typecast
     num2= Convert.ToSingle(Console.ReadLine()); 
 
-    Console.WriteLine("Choose an operation from 1-4 || [1] + [2] - [3] * [4] /)");
-    // choice  = Console.ReadLine(); //gets operation
-    choice = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Choose an operation (+,-,*,/)");
+    choice  = Console.ReadKey().KeyChar; //gets operation
 
-//PRAC USING CHARACTER AS INPUT
+      Console.WriteLine();//for new line
 
-
-     /*case '+':
-        sum = num1+num;
+    switch(choice ){
+        case '+':
+        sum = num1+num2;
            Console.WriteLine("Sum is "+sum);
         break;
 
     case '-':
-         diff = num1-num;
+         diff = num1-num2;
            Console.WriteLine("Difference is "+diff);
         break;
 
     case '*':
-     prod = num1*num;
+     prod = num1*num2;
            Console.WriteLine("Product is "+prod);
         break;
 
     case '/':
-     quo = num1-num;
+     quo = num1/num2;
            Console.WriteLine("Quotient is "+quo);
-        break;  */
+        break;  
+    }
 
    
 
