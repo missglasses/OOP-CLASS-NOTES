@@ -6,11 +6,11 @@ Class
 
 Objects
 
-Data Abstraction 
+Data Abstraction - next
 
 Encapsulation
 
-Inheritance
+Inheritance - done
 
 Polymorphism
 
