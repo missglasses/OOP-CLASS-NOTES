@@ -1,6 +1,6 @@
 using System;
 
-nameSpace InheritancePrac { //this is like a folder
+namespace InheritancePrac { //this is like a folder
     
     class Pet { //base class 
     public string Kind;
