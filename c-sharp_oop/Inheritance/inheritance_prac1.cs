@@ -40,7 +40,7 @@ class Program {
         Cat siamese = new Cat();
         siamese.Kind="Siamese";
         siamese.Name="Ana";
-        pomeranian.display();
+        siamese.display();
         
     }
 }
