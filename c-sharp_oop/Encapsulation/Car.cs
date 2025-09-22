@@ -1,4 +1,4 @@
-// Start typing your code
+
 using System;
 
 public class Car {
