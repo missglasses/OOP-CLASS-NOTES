@@ -9,7 +9,7 @@ public class Dancer : Performer{
    }
 
     //methods
-    public string GetDanceStyle{
+    public string GetDanceStyle(){
         return danceStyle;
     }
    
@@ -17,4 +17,5 @@ public class Dancer : Performer{
     public void Dance(){
         Console.WriteLine($"{GetName()} is performing {danceStyle} dance.");
     }
+
 }
