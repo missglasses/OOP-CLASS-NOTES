@@ -7,11 +7,12 @@ public class Singer : Performer {
         this.vocalRange=vocalRange;
     }
 
-    public string GetVocalRange{
+    public string GetVocalRange(){
         return vocalRange;
     }
 
     public void Sing(){
         Console.WriteLine($"{{GetName()} is singing with a {vocalRange} range.}");
     }
+
 }
